@@ -1351,7 +1351,7 @@ thead td {
 }
 
 .calendar__title p:first-child {
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
   color: #105b99;
   margin-bottom: 30px;
@@ -1366,7 +1366,7 @@ thead td {
 
 @media (max-width: 767px) {
   .calendar__title p:first-child {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     color: #105b99;
     margin-bottom: 20px;
