@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?3zdynn');
+  src:  url('../fonts/icomoon.eot?3zdynn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3zdynn') format('truetype'),
+    url('../fonts/icomoon.woff?3zdynn') format('woff'),
+    url('../fonts/icomoon.svg?3zdynn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e900";
+  margin-right: 5px;
+  margin-top: 1px;
+  color: #252B42;
+}
+.icon-mail-white:before {
+  content: "\e900";
+  margin-right: 5px;
+  margin-top: 1px;
+  color: #fff;
+}
+.icon-phone:before {
+  content: "\e901";
+  margin-right: 5px;
+  color: #252B42;
+  margin-top: 1px;
+}
+.icon-phone-white:before {
+  content: "\e901";
+  margin-right: 5px;
+  color: #fff;
+  margin-top: 1px;
+}
+.icon-time:before {
+  content: "\e902";
+  margin-right: 5px;
+  color: #252B42;
+  margin-top: 1px;
+}
+.icon-viber:before {
+  content: "\e903";
+  margin-right: 5px;
+}
+.icon-vk:before {
+  content: "\e904";
+  margin-right: 5px;
+}
+.icon-whatsapp:before {
+  content: "\e905";
+  margin-right: 5px;
+}
+.icon-home:before {
+  content: "\e906";
+  margin-right: 5px;
+  color: #252B42;
+  margin-top: 1px;
+}
+.icon-home-white:before {
+  content: "\e906";
+  margin-right: 5px;
+  color: #fff;
+  margin-top: 1px;
+}
+.icon-file-text:before {
+  content: "\e922";
+  margin-right: 5px;
+  color: #105b99;
+}
+
+@media (max-width:1200px) {
+  .icon-mail:before {
+    content: "\e900";
+    margin-right: 5px;
+    margin-top: 0px;
+    color: #252B42;
+  }
+  .icon-mail-white:before {
+    content: "\e900";
+    margin-right: 5px;
+    margin-top: 0px;
+    color: #fff;
+  }
+  .icon-phone:before {
+    content: "\e901";
+    margin-right: 5px;
+    color: #252B42;
+    margin-top: 0px;
+  }
+  .icon-phone-white:before {
+    content: "\e901";
+    margin-right: 5px;
+    color: #fff;
+    margin-top: 0px;
+  }
+  .icon-time:before {
+    content: "\e902";
+    margin-right: 5px;
+    color: #252B42;
+    margin-top: 0px;
+  }
+}
