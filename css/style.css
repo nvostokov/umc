@@ -809,7 +809,7 @@ a[href^="tel"] {
   .important__txt {
     margin-top: 0px;
     text-align: justify;
-    font-size: 14px; }
+    font-size: 12px; }
   .important__img img {
     width: 70px; }
   .important__img {
@@ -1473,6 +1473,32 @@ thead td {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%; }
+  .info__subtitle {
+    display: none; }
+
+@media (max-width: 767px) {
+  .info__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-bottom: 20px; }
+  .info__text {
+    width: 100%;
+    display: block;
+    font-size: 11px; }
+  .info__title {
+    font-size: 18px;
+    margin-bottom: 0; }
+  .info__subtitle {
+    display: block; }
+  .info__subtitle img {
+    width: 40px; }
+  .info__text img {
+    display: none; } }
 
 /*  */
 .history__container {
@@ -1503,7 +1529,7 @@ thead td {
           align-items: center; }
 
 .history__img img {
-  width: 90px;
+  width: 70px;
   margin-right: 30px; }
 
 .history__text li {
@@ -1527,6 +1553,40 @@ thead td {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%; }
+
+.history__subtitle {
+  display: none; }
+
+@media (max-width: 767px) {
+  .history__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px; }
+  .history__text {
+    width: 100%;
+    display: block;
+    font-size: 12px; }
+  .history__title {
+    font-size: 18px;
+    margin-bottom: 0; }
+  .history__subtitle {
+    display: block; }
+  .history__subtitle img {
+    width: 30px;
+    margin-right: 20px; }
+  .history__text img {
+    display: none; } }
 
 /*  */
 /*# sourceMappingURL=style.css.map */
