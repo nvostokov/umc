@@ -708,7 +708,7 @@ a[href^="tel"] {
 
 .image-slider .swiper-button-prev::after {
   content: '';
-  background-image: url(img/slider/l.svg);
+  background-image: url(../img/slider/l.svg);
   background-size: cover;
   position: absolute;
   left: 5px;
@@ -718,7 +718,7 @@ a[href^="tel"] {
 
 .image-slider .swiper-button-next::after {
   content: '';
-  background-image: url(img/slider/r.svg);
+  background-image: url(../img/slider/r.svg);
   background-size: cover;
   position: absolute;
   right: 5px;
