@@ -786,6 +786,10 @@ a[href^="tel"] {
     margin-right: 30px; } }
 
 @media (max-width: 767px) {
+  
+.swiper-button-prev, .swiper-button-next {
+    display: none; 
+  }
   .important__body {
     padding-top: 30px;
     display: -webkit-box;
