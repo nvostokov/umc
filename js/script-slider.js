@@ -26,15 +26,15 @@ new Swiper('.image-slider', {
     breakpoints: {// настройки для разных разрешений
         600: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            /*spaceBetween: 20,*/
         },
         991: {
             slidesPerView: 2,
-             spaceBetween: 20,
+            /*spaceBetween: 20,*/
         },
         1200: {
             slidesPerView: 3,
-            spaceBetween: 15,
+            /*spaceBetween: 15,*/
         }
     }
         /* 3d effects */
