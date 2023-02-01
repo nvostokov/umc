@@ -1911,22 +1911,25 @@ margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
-  .footer {
-    font-size: 11px;
+  .footer p {
+    font-size: 12px;
   }
-  .footer__container {
+  .footer p__container {
     display: block;
   }
-  .footer__container > div {
+  .footer p__container p {
+    font-size: 12px;
+  }
+  .footer p__container > div {
     margin-bottom: 30px;
   }
-  .footer .icon-mail-white:before, .footer .icon-home-white:before, .footer .icon-phone-white:before {
+  .footer p .icon-mail-white:before, .footer p .icon-home-white:before, .footer p .icon-phone-white:before {
     margin-top: 4px;
   }
 }
 
 .calendar-wrapper {
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1px;
   background: #fff;
   -webkit-border-radius: 1px;
