@@ -1958,7 +1958,7 @@ thead td {
     -ms-grid-columns: minmax(300px, 1300px) 350px;
         grid-template-columns: minmax(300px, 1300px) 350px;
     -ms-grid-rows: minmax(400px, 500px);
-        grid-template-rows: minmax(400px, 500px);
+        grid-template-rows: minmax(300px, 420px);
     margin-bottom: 10px;
     -webkit-column-gap: 10px;
             column-gap: 10px; }
