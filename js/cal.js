@@ -142,6 +142,7 @@ var Cal = function(divId) {
     // Начать календарь
     var c = new Cal("divCal");			
     c.showcurr();
+    
   
     // Привязываем кнопки «Следующий» и «Предыдущий»
     getId('btnNext').onclick = function() {
@@ -157,3 +158,22 @@ var Cal = function(divId) {
     return document.getElementById(id);
   }
   
+
+   // Начать календарь 2
+   var g = new Cal("divCal2");			
+   g.showcurr();
+   
+ 
+   // Привязываем кнопки «Следующий» и «Предыдущий»
+   getId('btnNext').onclick = function() {
+     g.nextMonth();
+   };
+   getId('btnPrev').onclick = function() {
+     g.previousMonth();
+   };
+ 
+ // Получить элемент по id
+ function getId(id) {
+   return document.getElementById(id);
+ }
+ 
