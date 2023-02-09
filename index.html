@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMC29</title>
-    <link rel="stylesheet" href="css/style.css?v=0102232355">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="css/aos.css">
@@ -16,7 +16,7 @@
         <header class="header">
             <div class="header__container _container">
                 <div class="header__logo">
-                    <a href="https://nvostokov.github.io/umc">                    
+                    <a href="/">                    
                         <img src="img/logo_aocc.png" alt="">
                     </a>
                 </div>
@@ -265,7 +265,8 @@
                                 </ul>
                             </li>
                             <li><a href="#" class="menu__link">Вопрос/Ответ</a></li>
-                            <li><a href="index2.html" class="menu__link">Отзывы</a></li>
+                            <li><a href="#" class="menu__link">Релизы</a></li>
+                            <li><a href="#" class="menu__link">Отзывы</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -273,32 +274,7 @@
         </header>
         <section class="swiper image-slider">
             <div class="swiper-wrapper image-slider__wrapper">
-          	<div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/06.jpg" alt="">
-                    </div>
-                </div>
                 <div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/07.jpg" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/08.jpg" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/09.jpg" alt="">
-                    </div>
-                </div>
-		<div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/10.jpg" alt="">
-                    </div>
-                </div>
-		<div class="swiper-slide image-slider__slide">
                     <div class="image-slider__image">
                         <img src="img/slider/01.jpg" alt="">
                     </div>
@@ -315,32 +291,17 @@
                 </div>
                 <div class="swiper-slide image-slider__slide">
                     <div class="image-slider__image">
-                        <img src="img/slider/04.jpg" alt="">
-                    </div>
-                </div>
-		<div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/05.jpg" alt="">
-                    </div>
-                </div>
-		<div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/11.jpg" alt="">
+                        <img src="img/slider/01.jpg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide image-slider__slide">
                     <div class="image-slider__image">
-                        <img src="img/slider/12.jpg" alt="">
+                        <img src="img/slider/02.jpg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide image-slider__slide">
                     <div class="image-slider__image">
-                        <img src="img/slider/13.jpg" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide image-slider__slide">
-                    <div class="image-slider__image">
-                        <img src="img/slider/14.jpg" alt="">
+                        <img src="img/slider/03.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -349,28 +310,31 @@
                     Учебно-методический центр
                 </div>
                 <div class="swiper__subtitle">
-                    Государственного бюджетного учреждения
+                    ГБУ Архангельской области "Служба спасения имени <br> И.А. Поливаного"
                 </div>
                 <div class="swiper__txt">
-                    Архангельской области "Служба спасения имени И.А. Поливаного"
+                    
                 </div>
-				<a href="#">
-                    <div class="swiper__button">
-                        Написать нам
-                    </div>
-                </a>
+                <button class="swiper__button">
+                    Написать нам
+                </button>
+<!--                 <div class="swiper__button">
+                    <a href="#">
+                        Написать нам                
+                    </a>
+                </div> -->
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </section>
-	<main class="page">
+        <main class="page">
             <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="page__info info">
                 <div class="info__container _container">
                     <div class="info__body">
                         <div class="info__head">
                             <div class="info__title">
-                                Внеплановые группы в I квартале 2023 г. (Обучение платное):
+                                Анонс учебных групп на I квартал 2023 г. <br> (Обучение платное):
                             </div>
                             <div class="info__subtitle">
                                 <img src="img/edu.svg" alt="">
@@ -402,23 +366,56 @@
                             </div>
                         </div>
                     </div>
+                    <div class="info__card info__card-marked">
+                        <div class="services__column grid">
+                            <div class="services__item item-services item-services__green calendar-wrapper">
+                                <button id="btnPrev" type="button">Предыдущий</button>
+                                <button id="btnNext" type="button">Следующий</button>
+                                <div id="divCal"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__card-media">
+                        <div class="important__card important__card-marked">
+                            <div class="important__img">
+                                <img src="img/covid.svg" alt="">
+                            </div>
+                            <div class="important__txt">
+                                <p>
+                                    В целях обеспечения безопасности и профилактики заболевания COVID-19 при посещении УМЦ все слушатели и посетители обязаны находиться в средствах индивидуальной защиты (маски, перчатки).  В связи с этим работодатели, направляющие своих специалистов на обучение, должны обеспечить их средствами защиты на весь период обучения.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="page__history history">
+            <section data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="page__history history">
                 <div class="history__container _container">
+                    <div class="history__card">
+                        <div class="important__card important__card-marked">
+                            <div class="important__img">
+                                <img src="img/document.svg" alt="">
+                            </div>
+                            <div class="important__txt">
+                                <p>
+                                    Выдача удостоверений о ПК или переподготовке осуществляется с понедельника по пятницу в рабочие часы УМЦ (тел.+7(8182)22-99-93 доб.215). <br> При себе иметь паспорт и (если необходимо) доверенность на право получения удостоверения.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="history__body">
                         <div class="history__head">
                             <div class="history__title">
                                 Внимание
                             </div>
-                            <div class="history__subtitle">
+<!--                             <div class="history__subtitle">
                                 <img src="img/warning.svg" alt="">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="history__text">
-                            <div class="history__img">
+<!--                             <div class="history__img">
                                 <img src="img/warning.svg" alt="">
-                            </div>
+                            </div> -->
                             <ul>
                                 <li>
                                     Группа на обучение по категориям "Председатели комиссий по предупреждению и ликвидации ЧС и ОПБ организаций", "Члены комиссий по предупреждению и ликвидации ЧС и ОПБ организаций" с 30.01.23 по 10.02.23 сформирована!
@@ -429,14 +426,10 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="page__services services">
-                <div class="services__container _container">
-                    <div class="services__body">
+                    <div class="history__card history__card-marked">
                         <div class="services__column grid">
-                            <figure class="services__item item-services effect-sadie">
-                                <img src="img/service/02.jpg"/>
+                            <figure class="services__item item-services effect-milo">
+                                <img src="http://umc29.ru/wp-content/uploads/2018/03/IMG_0105-300x225.jpg" alt="img14"/>
                                 <figcaption>
                                   <h2>Безопасность<span> <br> жизнедеятельности</span></h2>
                                   <p>Памятки населению<br></p>
@@ -444,42 +437,37 @@
                                 </figcaption>   
                             </figure>
                         </div>
-                        <div class="services__column grid">
-                            <figure class="services__item item-services effect-sadie" >
-                                <img src="img/service/01.jpg" alt="img14"/>
-                                <figcaption>
-                                    <h2><span> <br></span></h2>
-                                    <p>Материалы<br></p>
-                                    <a href="#"></a>
-                                </figcaption>   
-                            </figure>
-                        </div>
-                        <div class="services__column grid">
-                            <div class="services__item item-services item-services__green calendar-wrapper">
-                                <button id="btnPrev" type="button">Предыдущий</button>
-                                <button id="btnNext" type="button">Следующий</button>
-                                <div id="divCal"></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
-            <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="page__info info">
-                <div class="info__container _container">
+            <section data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" class="page__info info">
+                <div class="info__container-marked _container">
+                    <div class="info__card info__card-marked">
+                        <div class="important__card">
+                            <div class="important__img">
+                                <img src="img/document.svg" alt="">
+                            </div>
+                            <div class="important__txt">
+                                <p>
+                                    Выдача удостоверений о ПК или переподготовке осуществляется с понедельника по пятницу в рабочие часы УМЦ (тел.+7(8182)22-99-93 доб.215). <br> При себе иметь паспорт и (если необходимо) доверенность на право получения удостоверения.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="info__body">
                         <div class="info__head">
                             <div class="info__title">
                                 Основные события года
                             </div>
-                            <div class="info__subtitle">
+<!--                             <div class="info__subtitle">
                                 <img src="img/events.svg" alt="">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="info__info">
                             <div class="info__text">
-                                <div class="info__img">
+<!--                                 <div class="info__img">
                                     <img src="img/events.svg" alt="">
-                                </div>
+                                </div> -->
                                 <ul>
                                     <li class="info__row">
                                         <p class="info__date">22.11.22</p>
@@ -501,34 +489,58 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="page__important important">
-                <div class="important__container _container">
-                    <div class="important__body">
-                        <div class="important__card">
-                            <div class="important__img">
-                                <img src="img/covid.svg" alt="">
-                            </div>
-                            <div class="important__txt">
-                                <p>
-                                    В целях обеспечения безопасности и профилактики заболевания COVID-19 при посещении УМЦ все слушатели и посетители обязаны находиться в средствах индивидуальной защиты (маски, перчатки).  В связи с этим работодатели, направляющие своих специалистов на обучение, должны обеспечить их средствами защиты на весь период обучения.
-                                </p>
-                            </div>
+                    <div class="info__card info__card-marked">
+                        <div class="services__column grid">
+                            <figure class="services__item item-services effect-milo effect-milo-bright" >
+                                <img src="img/service/01.jpg" alt="img14"/>
+                                <figcaption>
+                                    <h2><span>  <br></span></h2>
+                                    <p>Материалы<br></p>
+                                    <a href="#"></a>
+                                </figcaption>   
+                            </figure>
                         </div>
-                        <div class="important__card">
-                            <div class="important__img">
-                                <img src="img/document.svg" alt="">
-                            </div>
-                            <div class="important__txt">
-                                <p>
-                                    Выдача удостоверений о ПК или переподготовке осуществляется с понедельника по пятницу в рабочие часы УМЦ (тел.+7(8182)22-99-93 доб.215). <br> При себе иметь паспорт и (если необходимо) доверенность на право получения удостоверения.
-                                </p>
+                    </div>
+                    <div class="info__card info__card-media">
+                        <div class="services__column grid">
+                            <div class="services__item item-services item-services__green calendar-wrapper">
+                                <button id="btnPrev" type="button">Предыдущий</button>
+                                <button id="btnNext" type="button">Следующий</button>
+                                <div id="divCal2"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <section class="page__history history history-marked">
+                <div class="history__container _container history-marked__container">
+                    <div class="info__card">
+                        <div class="services__column grid">
+                            <figure class="services__item item-services effect-milo effect-milo-bright" >
+                                <img class="services__img-marked" src="img/service/01.jpg" alt="img14"/>
+                                <img class="services__img" src="img/service/05.jpg" alt="img14"/>
+                                <figcaption>
+                                    <h2><span>  <br></span></h2>
+                                    <p>Материалы<br></p>
+                                    <a href="#"></a>
+                                </figcaption>   
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="history__card">
+                        <div class="services__column grid">
+                            <figure class="services__item item-services effect-milo">
+                                <img src="http://umc29.ru/wp-content/uploads/2018/03/IMG_0105-300x225.jpg" alt="img14"/>
+                                <figcaption>
+                                  <h2>Безопасность<span> <br> жизнедеятельности</span></h2>
+                                  <p>Памятки населению<br></p>
+                                  <a href="#"></a>
+                                </figcaption>   
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>            
         </main>
         <footer class="footer">
             <div class="footer__container _container">
