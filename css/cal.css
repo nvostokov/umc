@@ -1,0 +1,122 @@
+.calendar-wrapper {
+  padding: 2rem;
+  border-radius: 1px;
+  background: rgba(16, 91, 153, 0.01);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px; }
+
+table {
+  clear: both;
+  width: 100%;
+  border: 1px solid #dcdcff;
+  border-radius: 3px;
+  border-collapse: collapse;
+  color: #444; }
+
+td {
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #dcdcff;
+  border-top: 1px solid #dcdcff;
+  width: 14.28571429%; }
+
+td.not-current {
+  color: #c0c0c0; }
+
+td.today {
+  font-weight: 700;
+  color: #105b99;
+  font-size: 1.5rem; }
+
+thead td {
+  border: none;
+  color: #28283b;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+
+#btnPrev {
+  float: left;
+  margin-bottom: 20px; }
+
+#btnPrev:before {
+  content: '>';
+  font-family: FontAwesome;
+  padding-right: 4px; }
+
+#btnNext {
+  float: right;
+  margin-bottom: 20px; }
+
+#btnNext:after {
+  content: '<';
+  font-family: FontAwesome;
+  padding-left: 4px; }
+
+#btnPrev,
+#btnNext {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#btnPrev:hover,
+#btnNext:hover {
+  color: #105b99; }
+
+.calendar__container {
+  margin-bottom: 40px; }
+
+.calendar__body {
+  background-color: #105b99;
+  padding: 35px;
+  height: auto;
+  /*     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+ */
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  border-radius: 5px; }
+
+.calendar__body:hover {
+  /*     -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.3); */ }
+
+.calendar__title p:first-child {
+  font-size: 40px;
+  font-weight: 700;
+  /* color: #105b99; */
+  color: #fff;
+  margin-bottom: 30px; }
+
+.calendar__title p:not(:first-child) {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  /* color: #444; */
+  margin-bottom: 20px; }
+
+@media (max-width: 767px) {
+  .calendar__title p:first-child {
+    font-size: 30px;
+    font-weight: 600;
+    color: #105b99;
+    margin-bottom: 20px; }
+  .calendar__title p:not(:first-child) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 10px; }
+  html {
+    font-size: 9px; } }
+/*# sourceMappingURL=cal.css.map */

@@ -22,20 +22,19 @@ new Swiper('.image-slider', {
         disableOnInteraction: false,
     },
     speed: 3000,
+/*     slidesPerView: 2, */
 
     breakpoints: {// настройки для разных разрешений
-        600: {
+        579: {
             slidesPerView: 1,
-            /*spaceBetween: 20,*/
         },
-        991: {
+        700: {
             slidesPerView: 2,
-            /*spaceBetween: 20,*/
+            spaceBetween: 0,
         },
-        1200: {
-            slidesPerView: 3,
-            /*spaceBetween: 15,*/
-        }
+/*         1200: {
+            slidesPerView: 3
+        }, */
     }
         /* 3d effects */
     /* effect: 'cube', */
