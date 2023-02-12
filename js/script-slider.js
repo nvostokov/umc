@@ -28,13 +28,16 @@ new Swiper('.image-slider', {
         579: {
             slidesPerView: 1,
         },
-        700: {
+        992: {
             slidesPerView: 2,
             spaceBetween: 0,
         },
-/*         1200: {
+        2000: {
             slidesPerView: 3
-        }, */
+        },
+        3000: {
+            slidesPerView: 4
+        },
     }
         /* 3d effects */
     /* effect: 'cube', */
