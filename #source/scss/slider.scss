@@ -1,0 +1,218 @@
+.swiper {
+    position: relative;
+    margin-top: 164px;
+/*     margin-top: 169px;
+ */    background-color: #FFF;
+/*     margin-bottom: 30px;
+ */    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.05);
+}
+
+.image-slider__image {
+      /*opacity: 0.9;
+      *//*background-color: #dddddd;
+      *//*background-color: #FFF;
+      *//* box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.1); */
+      text-align: center;
+      filter: grayscale(0.1);
+      /*transition: all 0.3s ease;
+      */
+      -webkit-filter: grayscale(0.1);
+}
+/* .image-slider__image:hover {
+    filter: grayscale(0);
+} */
+
+.image-slider__image img {
+    max-width: 100%;
+    min-height: 225;
+}
+
+.swiper-slide img {
+    opacity: 0.6;
+/*       opacity: 0.5; 
+*/}
+
+.swiper {
+    max-width: 100%;
+    &__button {
+          width: 11.75rem;
+          height: 3.5rem;
+          background-color: rgba(16, 91, 153, 0.87);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 1.1;
+          letter-spacing: 0px;
+          text-transform: uppercase;
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          color: #FFF;
+          border-radius: 3px;
+}
+    &__button:hover {
+        background-color: #486cb3;
+        background-color: rgba(16, 91, 153, 1);
+
+    }      
+    &__button:active {
+        position: relative;
+        top: 1px; }
+}
+.swiper__object {
+    z-index: 10;
+    position: absolute;
+    left: calc(50% - 50rem);
+    top: 3.8rem;
+    max-width: 700px;
+}
+.swiper__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 2rem;
+    text-shadow: 0px 13px 19px rgba(255, 255, 255, 0.8); 
+}
+.swiper__subtitle {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    letter-spacing: 0px;
+    text-align: left;
+    text-shadow: 0px 13px 19px rgba(255, 255, 255, 0.8);
+}
+.swiper__txt {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.625rem;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 2rem; }
+
+.swiper-button-prev, .swiper-button-next {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; 
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+    transition: all 0.5s;
+    
+}
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after  {
+  font-size: 0;
+}
+.image-slider .swiper-button-prev::after {
+  content:'';
+  background-image: url(/img/slider/l.svg);
+  background-size: cover;
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 15px;
+    height: 25px;
+}
+.image-slider .swiper-button-next::after {
+  content:'';
+  background-image: url(/img/slider/r.svg);
+  background-size: cover;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  width: 15px;
+  height: 25px;
+}
+.image-slider .swiper-button-prev:hover,
+.image-slider .swiper-button-next:hover {
+  opacity: 0.5;
+}
+@media (max-width: 2200px) {
+    .swiper__object {
+        top: 2rem;
+    }
+}
+
+@media (max-width: 2000px) {
+    .swiper__object {
+        top: 4rem;
+    }
+}
+
+@media (max-width: 1550px) {
+    .swiper__object {
+        top: 2rem;
+        left: 7rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .swiper {
+        margin-top: 44px;
+    }
+    .swiper__object {
+    }
+    .swiper__subtitle {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+    .swiper__txt {
+        margin-bottom: 1.5rem; 
+    }
+}
+
+@media (max-width: 992px) {
+    .image-slider .swiper-button-prev::after,
+    .image-slider .swiper-button-next::after {
+        display: none;
+    }
+    .swiper__object {
+        left: 4rem;
+        top: 3rem;
+        }
+}
+
+@media (max-width: 747px) {
+    .swiper__object {
+        left: 3rem;
+        top: 2rem;
+    }
+}
+
+@media (max-width: 579px) {
+    .swiper__object {
+        left: 3rem;
+        top: 4rem;
+        max-width: 500px;
+    }
+    .swiper__title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 1rem; 
+    }
+    .swiper__subtitle {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+    .swiper__txt {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.625rem;
+        margin-bottom: 1rem; 
+    }
+    .swiper__button {
+            width: 13rem;
+            height: 3.5rem;
+            font-size: 1.2rem;
+    }
+}
