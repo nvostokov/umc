@@ -30,13 +30,16 @@ new Swiper('.image-slider', {
         },
         992: {
             slidesPerView: 2,
-            spaceBetween: 0,
+/*             spaceBetween: 0,
+ */        },
+        1200: {
+            slidesPerView: 3,
         },
         2000: {
-            slidesPerView: 3
+            slidesPerView: 4,
         },
         3000: {
-            slidesPerView: 4
+            slidesPerView: 5,
         },
     }
         /* 3d effects */
