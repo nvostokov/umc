@@ -8,10 +8,10 @@ var Cal = function(divId) {
       'Пн',
       'Вт',
       'Ср',
-      'Чтв',
-      'Птн',
-      'Суб',
-      'Вск'
+      'Чт',
+      'Пт',
+      'Сб',
+      'Вс'
     ];
   
     // Месяцы начиная с января
@@ -20,9 +20,9 @@ var Cal = function(divId) {
     //Устанавливаем текущий месяц, год
     var d = new Date();
   
-    this.currMonth = d.getMonth('9');
-    this.currYear = d.getFullYear('22');
-    this.currDay = d.getDate('3');
+    this.currMonth = d.getMonth('');
+    this.currYear = d.getFullYear('');
+    this.currDay = d.getDate('');
   };
   
   // Переход к следующему месяцу
@@ -94,7 +94,7 @@ var Cal = function(divId) {
         html += '<tr>';
       }
       
-      // Если первый день недели не понедельник показать последние дни предидущего месяца
+      // Если первый день недели не понедельник показать последние дни предыдущего месяца
       else if ( i == 1 ) {
         html += '<tr>';
         var k = lastDayOfLastMonth - firstDayOfMonth+1;
@@ -113,6 +113,7 @@ var Cal = function(divId) {
       } else {
         html += '<td class="normal">' + i + '</td>';
       }
+      console.log(i)
       // закрыть строку в воскресенье
       if ( dow == 0 ) {
         html += '</tr>';

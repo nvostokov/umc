@@ -74,10 +74,23 @@
 }
 
 .management__img img {
+  border-radius: 3px;
   height: 450px;
   width: 380px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.management__img-marked img {
+  height: 550px;
+}
+
+.management__card-marked {
+  height: auto;
 }
 
 @media (max-width: 1100px) {

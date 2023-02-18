@@ -7,6 +7,11 @@
   display: none;
 }
 
+.major__month-time {
+  width: 100px;
+  margin-right: 10px;
+}
+
 .grid figure {
   border-radius: 3px;
   -webkit-border-radius: 3px;

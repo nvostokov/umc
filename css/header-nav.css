@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .header-nav {
     position: fixed;
     top: 124px;
@@ -112,17 +112,17 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .menu__sub-list {
-    transform: translate(10px, 90%);
+    transform: translate(0px, 30%);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transition: all 0.3s ease 0s;
-    -webkit-transform: translate(10px, 90%);
-    -moz-transform: translate(10px, 90%);
-    -ms-transform: translate(10px, 90%);
-    -o-transform: translate(10px, 90%);
+    -webkit-transform: translate(0px, 30%);
+    -moz-transform: translate(0px, 30%);
+    -ms-transform: translate(0px, 30%);
+    -o-transform: translate(0px, 30%);
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -ms-transition: all 0.3s ease 0s;
@@ -146,13 +146,13 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .hamburger-menu {
     display: none;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .header-nav__container {
     margin: 0;
     padding: 0;
@@ -273,21 +273,30 @@
     opacity: 0;
   }
   #menu__toggle:checked + .menu__btn > span {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     background-color: #105b99;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
   }
   #menu__toggle:checked + .menu__btn > span::before {
     top: 0;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background-color: #105b99;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
   }
   #menu__toggle:checked + .menu__btn > span::after {
     top: 0;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
     background-color: #105b99;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
   }
   #menu__toggle:checked ~ .menu__box {
     left: 0 !important;
