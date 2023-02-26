@@ -12,9 +12,9 @@ let LeafIcon = L.Icon.extend({
     }
 });
 
-let contactIcon = new LeafIcon({iconUrl: '../img/logo_cart.png'});
+let contactIcon = new LeafIcon({iconUrl: './img/logo_cart.png'});
 
-let trIcon = new LeafIcon({iconUrl: '../img/transparent.svg'})
+let trIcon = new LeafIcon({iconUrl: './img/transparent.svg'})
 
 let umc = L.marker([64.5342756797821, 40.579292467658206], {icon: contactIcon}).bindPopup('Учебно-методический центр, пр-т Московский, 17').addTo(map);
 
