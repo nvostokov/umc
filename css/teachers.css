@@ -11,8 +11,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0 -30px;
-}
+  margin: 0 -30px; }
 
 .management__card {
   background-color: #fff;
@@ -32,37 +31,31 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-}
+  -o-border-radius: 3px; }
 
 .management__card:hover {
   -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.2);
   /*  -webkit-transform: scale(1.02);
-            transform: scale(1.02); */
-}
+            transform: scale(1.02); */ }
 
 .management__info {
   text-align: center;
   margin-bottom: 15px;
-  height: 85px;
-}
+  height: 85px; }
 
 .management__subtitle {
   font-weight: 800;
   font-size: 18px;
   color: #105b99;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .management__post {
   color: #737373;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .management__txt {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .management__img {
   display: -webkit-box;
@@ -70,8 +63,7 @@
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .management__img img {
   border-radius: 3px;
@@ -82,21 +74,17 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-}
+  -o-border-radius: 3px; }
 
 .management__img-marked img {
-  height: 550px;
-}
+  height: 550px; }
 
 .management__card-marked {
-  height: auto;
-}
+  height: auto; }
 
 @media (max-width: 1100px) {
   .management__title {
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .management__cards {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -107,21 +95,16 @@
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-  }
+    -o-transition: all 0.5s ease; }
   .management__info {
-    height: auto;
-  }
-}
+    height: auto; } }
 
 @media (max-width: 479px) {
   .management__img img {
     width: 220px;
     height: 290px;
     -o-object-fit: cover;
-    object-fit: cover;
-  }
+    object-fit: cover; }
   .management__card {
-    height: auto;
-  }
-}
+    height: auto; } }
+/*# sourceMappingURL=teachers.css.map */

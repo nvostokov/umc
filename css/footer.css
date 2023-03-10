@@ -4,98 +4,72 @@
   height: auto;
   -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.2);
-  font-weight: 600;
-}
-
-.footer__body {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  line-height: 160%;
-  border-bottom: 3px solid #fff;
-  margin-bottom: 20px;
-  padding: 0px 0;
-}
-
-.footer p {
-  font-size: 16px;
-  color: #FFF;
-  margin-bottom: 15px;
-  line-height: 130%;
-}
-
-.footer__address {
-  max-width: 400px;
-  font-family: 'Open Sans';
-}
-
-.footer__mail {
-  max-width: 350px;
-}
-
-.footer__phone {
-  max-width: 400px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: inherit;
-  -webkit-text-decoration: underline 1.3px rgba(255, 255, 255, 0);
-          text-decoration: underline 1.3px rgba(255, 255, 255, 0);
-  -webkit-transition: -webkit-text-decoration-color 300ms ease-in;
-  transition: -webkit-text-decoration-color 300ms ease-in;
-  transition: text-decoration-color 300ms ease-in;
-  transition: text-decoration-color 300ms ease-in, -webkit-text-decoration-color 300ms ease-in;
-  -webkit-transition: text-decoration-color 300ms ease-in;
-  -moz-transition: text-decoration-color 300ms ease-in;
-  -ms-transition: text-decoration-color 300ms ease-in;
-  -o-transition: text-decoration-color 300ms ease-in;
-}
-
-.footer a:hover {
-  -webkit-text-decoration: underline 1.3px white;
-          text-decoration: underline 1.3px white;
-}
-
-.footer__container p {
-  font-family: 'Open Sans';
-  font-size: 16px;
-}
-
-.footer__contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer img {
-  width: 100px;
-}
-
-.footer__body > div:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer__down {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+  font-weight: 600; }
+  .footer__body {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 160%;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 20px;
+    padding: 0px 0; }
+  .footer p {
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 15px;
+    line-height: 130%; }
+  .footer__address {
+    max-width: 400px;
+    font-family: 'Open Sans'; }
+  .footer__mail {
+    max-width: 350px; }
+  .footer__phone {
+    max-width: 400px; }
+  .footer a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-text-decoration: underline 1.3px rgba(255, 255, 255, 0);
+            text-decoration: underline 1.3px rgba(255, 255, 255, 0);
+    -webkit-transition: -webkit-text-decoration-color 300ms ease-in;
+    transition: -webkit-text-decoration-color 300ms ease-in;
+    transition: text-decoration-color 300ms ease-in;
+    transition: text-decoration-color 300ms ease-in, -webkit-text-decoration-color 300ms ease-in;
+    -webkit-transition: text-decoration-color 300ms ease-in;
+    -moz-transition: text-decoration-color 300ms ease-in;
+    -ms-transition: text-decoration-color 300ms ease-in;
+    -o-transition: text-decoration-color 300ms ease-in; }
+  .footer a:hover {
+    -webkit-text-decoration: underline 1.3px white;
+            text-decoration: underline 1.3px white; }
+  .footer__container p {
+    font-family: 'Open Sans';
+    font-size: 16px; }
+  .footer__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer img {
+    width: 100px; }
+  .footer__body > div:not(:last-child) {
+    margin-right: 10px; }
+  .footer__down {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .footer-down__container p {
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .footer-down__container {
   display: -webkit-box;
@@ -106,55 +80,39 @@
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-}
+          align-items: center; }
 
 @media (max-width: 992px) {
   .footer {
     font-size: 13px;
-    line-height: 150%;
-  }
-  .footer__body {
-    display: block;
-  }
-  .footer__body > div {
-    margin-bottom: 30px;
-  }
-  .footer__body > div:not(:last-child) {
-    border-bottom: 2px solid #FFF;
-  }
-  .footer .icon-mail-white:before, .footer .icon-home-white:before, .footer .icon-phone-white:before {
-    margin-top: 3px;
-  }
-  .footer img {
-    width: 70px;
-  }
-  .footer__down {
-    border-top: 2px solid #FFF;
-    display: block;
-  }
-  .footer__body {
-    border-bottom: none;
-  }
-  .footer__body > div:not(:last-child) {
-    margin-right: 0px;
-  }
-}
+    line-height: 150%; }
+    .footer__body {
+      display: block; }
+    .footer__body > div {
+      margin-bottom: 30px; }
+    .footer__body > div:not(:last-child) {
+      border-bottom: 2px solid #FFF; }
+    .footer .icon-mail-white:before, .footer .icon-home-white:before, .footer .icon-phone-white:before {
+      margin-top: 3px; }
+    .footer img {
+      width: 70px; }
+    .footer__down {
+      border-top: 2px solid #FFF;
+      display: block; }
+    .footer__body {
+      border-bottom: none; }
+    .footer__body > div:not(:last-child) {
+      margin-right: 0px; } }
 
 @media (max-width: 767px) {
   .footer p {
-    font-size: 12px;
-  }
-  .footer p__container {
-    display: block;
-  }
-  .footer p__container p {
-    font-size: 12px;
-  }
-  .footer p__container > div {
-    margin-bottom: 30px;
-  }
-  .footer p .icon-mail-white:before, .footer p .icon-home-white:before, .footer p .icon-phone-white:before {
-    margin-top: 4px;
-  }
-}
+    font-size: 12px; }
+    .footer p__container {
+      display: block; }
+    .footer p__container p {
+      font-size: 12px; }
+    .footer p__container > div {
+      margin-bottom: 30px; }
+    .footer p .icon-mail-white:before, .footer p .icon-home-white:before, .footer p .icon-phone-white:before {
+      margin-top: 4px; } }
+/*# sourceMappingURL=footer.css.map */

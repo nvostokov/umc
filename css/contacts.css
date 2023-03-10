@@ -1,0 +1,83 @@
+#map {
+  height: 350px;
+  width: 100%;
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px; }
+
+.events__contacts {
+  color: #105b99; }
+
+.contacts__container {
+  padding: 60px; }
+
+.contacts__body {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 150%;
+  color: #105b99; }
+
+.contacts__address {
+  padding: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 35%;
+          flex: 0 1 35%; }
+
+.contacts__address a, .contacts__phone a, .contacts__mail a {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  -webkit-text-decoration: underline 1.3px rgba(16, 91, 153, 0);
+          text-decoration: underline 1.3px rgba(16, 91, 153, 0);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s; }
+
+.contacts__address a:hover, .contacts__phone a:hover, .contacts__mail a:hover {
+  -webkit-text-decoration: underline 1.3px #105b99;
+          text-decoration: underline 1.3px #105b99; }
+
+.contacts__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px; }
+
+.contacts__contact p {
+  color: #105b99;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', serif; }
+
+.contacts__phone {
+  padding: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%; }
+
+.contacts__mail {
+  padding: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%; }
+
+@media (max-width: 747px) {
+  .contacts__container {
+    padding: 40px 20px; }
+  .contacts__body {
+    display: block; }
+  .contacts__contact p {
+    font-size: 15px; } }
+/*# sourceMappingURL=contacts.css.map */
