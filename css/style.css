@@ -799,6 +799,11 @@ a[href^="tel"] {
     width: 13rem;
     height: 3.5rem;
     font-size: 1.2rem; } }
+@media (max-width: 450px) {
+  .swiper__title {
+    font-size: 1.5rem; }
+  .swiper__subtitle {
+    font-size: 2.8rem; } }
 
 .events {
   position: relative;
